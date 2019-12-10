@@ -1,0 +1,52 @@
+ls
+j rru
+ls
+cd ..
+c
+ls
+ll LOG/
+h
+history
+ll LOG/
+source ~/.bashrcr
+source ~/.bashrc
+ls
+h
+cd ..
+ls
+ll LOG/
+ls LOG/
+ls
+ls ./LOG/
+ls -al ./LOG/
+GMII        check_scoreboard.sv       runtime_verbosity_pkg.sv
+./run tc_rru_txrx
+su wireless
+TX_AUX_1[TX-AUX-PktNum]::  10.
+su wireless
+jobs
+ncpid wireless
+jobs -l
+ps aux
+root      1092  0.0  0.0      0     0 ?        S    Oct18   0:00 [scsi_eh_1]
+jobs -l
+jobs 
+ls
+ps aux|grep modelsim
+ps aux|grep vsim
+ls
+rm \#a.py\# 
+ls
+rm led.sv 
+ls
+cd../..
+cd ..
+cd ..
+vcs -help |grep pulse
+jobs 
+bs -l
+bs
+jobs
+ls
+vcs -help
+vcs -help|more

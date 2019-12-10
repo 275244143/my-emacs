@@ -1,0 +1,103 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Fri Nov  1 16:04:30 2019
+;; Desktop file format version 208
+;; Emacs version 25.3.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (23995 59150 402706 95000) (desktop . "208") "lixu@fpga-rs" nil nil ((((font-backend xft x) (font . "-microsoft-Consolas-normal-normal-normal-*-15-*-*-*-m-0-iso10646-1") (font-parameter . "Consolas Bold 11") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "ghost white") (background-color . "gray20") (mouse-color . "khaki") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (alpha) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "khaki") (sticky) (environment) (powerline-cache) (frameset--id . "B9BF-5DEA-5878-9EAF") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "localhost:23.0") (explicit-name) (visibility . t) (height . 58) (width . 238) (left . 0) (top . 24)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 7) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 72) (min-pixel-width . 80) (min-pixel-height-ignore . 54) (min-pixel-width-ignore . 56) (min-pixel-height-safe . 18) (min-pixel-width-safe . 16)) leaf (pixel-width . 1920) (pixel-height . 1038) (total-width . 240) (total-height . 57) (normal-height . 1.0) (normal-width . 1.0) (buffer "init.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 3) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 3780) (start . 2581))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring '("\\<hook\\>" "\\<agc_infor_out\\>" "rtl"))
+(setq register-alist '((48 . "(add-to-list 'load-path \"~/.emacs.d/el-pkg/evil-matchit/\")\n")))
+(setq file-name-history '("~/test.sv" "~/.emacs.d/init.el" "/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/RTL/rru_rtl/RRU520_10AS032E3F29E2SG_SIMULATION.v" "/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/RTL/rru_rtl/filter/rru_filter.v" "/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/" "/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/RTL/rru.f"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/mnt/data2/lixu/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode company-mode flycheck-mode)
+  3780
+  '(5530 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (5648 3785 3785 3809 2292 2412 3098 3739 3739 3739 2324 2306 2292))))
+
+(desktop-create-buffer 208
+  "/mnt/data2/lixu/test.py"
+  "test.py"
+  'python-mode
+  '(linum-mode company-mode flycheck-mode auto-complete-mode)
+  13
+  '(1 nil)
+  nil
+  nil
+  '((tab-width . 8) (indent-tabs-mode) (buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/mnt/data2/lixu/test.sv"
+  "test.sv"
+  'verilog-mode
+  '(linum-mode company-mode flycheck-mode)
+  1345
+  '(1345 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix) (overwrite-mode))
+  '((mark-ring (1345 1))))
+
+(desktop-create-buffer 208
+  nil
+  "ALTERA_RRU_CSIM"
+  'dired-mode
+  '(linum-mode company-mode)
+  1917
+  '(1917 nil)
+  t
+  '("/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/")
+  '((overwrite-mode))
+  '((mark-ring (1917 264))))
+
+(desktop-create-buffer 208
+  nil
+  "lixu"
+  'dired-mode
+  '(linum-mode company-mode)
+  872
+  '(872 nil)
+  t
+  '("/mnt/data2/lixu/")
+  '((overwrite-mode))
+  '((mark-ring (236))))
+
+(desktop-create-buffer 208
+  "/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/RTL/rru.f"
+  "rru.f"
+  'fortran-mode
+  '(linum-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos) (overwrite-mode) (fill-column . 72))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  nil
+  "RTL"
+  'dired-mode
+  '(linum-mode company-mode)
+  492
+  '(492 nil)
+  t
+  '("/mnt/data3/project/WIRELESS/ALTERA_RRU_CSIM/RTL/")
+  '((overwrite-mode))
+  '((mark-ring (492 492))))
+

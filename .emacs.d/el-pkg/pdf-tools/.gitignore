@@ -1,0 +1,7 @@
+aux/
+dist/
+.cask/
+pdf-tools-*.tar
+pdf-tools-*/
+pdf-tools-readme.txt
+pdf-tools-1.0.entry

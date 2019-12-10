@@ -1,0 +1,32 @@
+
+;; ----- smex-history -----
+(
+ ag
+ helm-M-x
+ eval-buffer
+ occur
+ customize-group
+ package-list-packages
+ menu-bar-open
+)
+
+;; ----- smex-data -----
+(
+ (eval-buffer . 6)
+ (maximize-window . 1)
+ (enlarge-window . 2)
+ (all-the-icons-install-fonts . 1)
+ (all-the-icons-insert-alltheicon . 1)
+ (all-the-icons-insert-fileicon . 1)
+ (package-list-packages . 3)
+ (menu-bar-open . 2)
+ (customize-group . 1)
+ (inc-num-region . 1)
+ (dumb-jump-go . 1)
+ (dumb-jump-hydra/body . 4)
+ (occur . 1)
+ (ag . 5)
+ (move-text-up . 2)
+ (helm-M-x . 3)
+ (slime . 1)
+)
