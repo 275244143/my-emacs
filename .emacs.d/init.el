@@ -160,6 +160,7 @@
       "*"   'search-current-word
       "&"   'search-selection
       "dd"  'delete-duplicate-lines
+      "dt"  'untabify
       "F"   'find-file
       "f"   'helm-find-files
       "lf"  'flush-lines
@@ -205,6 +206,8 @@
       "ht"  'helm-tramp
       "cl"  'slime
       "pp"  'indent-pp-sexp
+      "hl"  'hs-hide-level
+      "hs"  'hs-show-block
       ))
 ;;powerline
 (use-package powerline
@@ -576,6 +579,8 @@
     (setq lsp-clients-python-command "/home/soft/anaconda3/bin/pyls")
   :hook
     (python-mode . lsp-deferred)
+    (c-mode . lsp-deferred)
+    (c++-mode . lsp-deferred)
   :commands
     (lsp lsp-deferred))
 ;; optionally
@@ -589,16 +594,15 @@
 (use-package dap-mode)
 ;; (use-package dap-LANGUAGE) to load the dap adapter for your language
 (use-package lsp-ui
-    :init
-      ;;启用 lsp-ui
-      (add-hook 'lsp-mode-hook 'lsp-ui-mode)
-      ;;启用 flycheck
-      (add-hook 'python-mode-hook 'flycheck-mode))
+  :init
+    ;;启用 lsp-ui
+    (add-hook 'lsp-mode-hook 'lsp-ui-mode)
+    ;;启用 flycheck
+    (add-hook 'python-mode-hook 'flycheck-mode))
 (use-package company-lsp
-    :config
-      ;;设置 company-lsp 为后端
-      (push 'company-lsp company-backends))
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+  :config
+    ;;设置 company-lsp 为后端
+    (push 'company-lsp company-backends))
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;package end
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
